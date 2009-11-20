@@ -31,9 +31,14 @@ v1.0 feb 15, 2007
 
 INSTALLATION:
 
-* Copy the .scpt file to ~/Library/iTunes/Scripts/
-  (Create the folder if it does not exist)
-  You can the run the script from the Scripts menu item in iTunes.app.
+* `osacompile` the script into a .scpt file, then copy it to
+  ~/Library/iTunes/Scripts/ (Create the folder if it does not exist)
+  You can then run the script from the Scripts menu item in iTunes.app.
+* Or, if you have GNU Make installed:
+  * in the download folder, just run `make`, which will create the script and
+    copy it for you
+  * `make run` will run the script once for you from the command line
+  * `make uninstall` deletes the script if it is installed.
 
 Optional:
 
