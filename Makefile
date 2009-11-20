@@ -9,9 +9,17 @@ AS_FILE=$(BASENAME).applescript
 SCPT_FILE=$(BASENAME).scpt
 SCRIPT_DIR=$(HOME)/Library/iTunes/Scripts
 
-.PHONY: all
+.PHONY: all install uninstall run
 
-all:
+all: install
+
+install:
 	osacompile -o $(SCPT_FILE) $(AS_FILE)
 	mkdir -p $(SCRIPT_DIR)
 	mv $(SCPT_FILE) $(SCRIPT_DIR)/
+
+uninstall:
+	rm -f $(SCRIPT_DIR)/$(SCPT_FILE)
+
+run:
+	osascript $(AS_FILE)
