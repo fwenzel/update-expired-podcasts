@@ -1,0 +1,55 @@
+===============================================================================
+update-expired-podcasts
+===============================================================================
+
+An AppleScript script for automatically enabling (and updating) podcasts that
+have been disabled by iTunes because it is *so much smarter* than you are, 
+thinking that it knows which podcasts you don't want to listen to anymore…
+
+-------------------------------------------------------------------------------
+
+"Update Expired Podcasts" for iTunes
+was originally written by Doug Adams <dougadams@mac.com>
+
+Get more free AppleScripts and info on writing your own 
+at Doug's AppleScripts for iTunes
+http://www.dougscripts.com/itunes/
+
+Modifications by Jean Pierre Wenzel <jpwenzel@gmx.net>
+
+-------------------------------------------------------------------------------
+
+HISTORY:
+
+v1.0 aug 13, 2008
+-- compatible with iTunes 7.7.1
+
+v1.0 feb 15, 2007
+-- initial release
+
+-------------------------------------------------------------------------------
+
+INSTALLATION:
+
+For a detailed installation description please refer to the script's web page:
+http://dougscripts.com/itunes/scripts/ss.php?sp=updateexpiredpodcasts
+
+-------------------------------------------------------------------------------
+
+LICENSE:
+
+This program is free software; you can redistribute it and/or modify it under 
+the terms of the GNU General Public License as published by the Free Software 
+Foundation; either version 2 of the License, or (at your option) any later 
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT 
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+Get a copy of the GNU General Public License by writing to the Free Software 
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+or visit http://www.gnu.org/copyleft/gpl.html
+
+===============================================================================
