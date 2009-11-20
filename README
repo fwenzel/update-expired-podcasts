@@ -31,15 +31,17 @@ v1.0 feb 15, 2007
 
 INSTALLATION:
 
-For a detailed installation description please refer to the script's web page:
-http://dougscripts.com/itunes/scripts/ss.php?sp=updateexpiredpodcasts
+* Copy the .scpt file to ~/Library/iTunes/Scripts/
+  (Create the folder if it does not exist)
+  You can the run the script from the Scripts menu item in iTunes.app.
 
-NOTE:
+Optional:
 
-When checking out the complete Github project as ZIP or GZIP file, unzip
-the archive, so afterwards the folder "Update Expired Podcasts.scptd" will be 
-recognized as a 'Script Bundle' by Mac OS X that you can run (or edit with the 
-AppleScript Editor).
+* Create a crontab entry to regularly execute the script, e.g., once a day at
+  6:00 pm that looks like this:
+
+  # Updated deactivated podcasts in iTunes
+  0 18 * * *  /usr/bin/osascript ~/Library/iTunes/Scripts/update-expired-podcasts.scpt
 
 -------------------------------------------------------------------------------
 
