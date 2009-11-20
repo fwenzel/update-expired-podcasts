@@ -4,7 +4,7 @@ update-expired-podcasts
 
 An AppleScript script for automatically enabling (and updating) podcasts that
 have been disabled by iTunes because it is *so much smarter* than you are, 
-thinking that it knows which podcasts you don't want to listen to anymore…
+thinking that it knows which podcasts you don't want to listen to anymore...
 
 -------------------------------------------------------------------------------
 
@@ -33,6 +33,13 @@ INSTALLATION:
 
 For a detailed installation description please refer to the script's web page:
 http://dougscripts.com/itunes/scripts/ss.php?sp=updateexpiredpodcasts
+
+NOTE:
+
+When checking out the complete Github project as ZIP or GZIP file, unzip
+the archive, so afterwards the folder "Update Expired Podcasts.scptd" will be 
+recognized as a 'Script Bundle' by Mac OS X that you can run (or edit with the 
+AppleScript Editor).
 
 -------------------------------------------------------------------------------
 
